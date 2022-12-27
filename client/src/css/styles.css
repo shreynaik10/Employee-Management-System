@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #2d3d5c;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    /* color: #2d3d5c; */
+    color: white;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+
+h3{
+    color: #2d3d5c;
+    padding-bottom: 30px;
+}
+
+
+table th,td {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5270ab;
+  color: white;
+}
+
+
+
+#employeeTable{
+    width: 90%;
+    margin: 50px auto;
+}
+
+#employeeCreate{
+    width: 90%;
+    margin: 50px auto;
+}
+
+#employeeUpdate{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.empCreateinput{
+    margin: 5px;
+}
+
+#employeeSearch{
+    width: 90%;
+    margin: auto;
+}
+
+#errorList{
+    color: red;
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#addEmpBtn{
+    background-color: #ff6600;
+    color: white;
+}
+
+/* .tableIconDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+#employeeDetails{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#employeeDetails h2{
+    text-align: center;
+}
+
+#detailsGrid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+#retirementContainer{
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 40px;
+}
+
+.retirementCard{
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 108, 0.2);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+.retirementCard:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 0px 0px rgba(1, 1, 108, 0.2);
+
+}
+
+.retirementCard h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

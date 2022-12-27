@@ -1,0 +1,40 @@
+type Employee {
+    _id:String,
+    FirstName:String,
+    LastName:String,
+    Age:Int,
+    Title:String,
+    Department:String,
+    EmployeeType:String,
+    DateOfJoining:String,
+    CurrentStatus:Boolean,
+    Errors:[String]
+}
+
+type RetirementEmployee {
+    _id:String,
+    FirstName:String,
+    LastName:String,
+    Age:Int,
+    Title:String,
+    Department:String,
+    EmployeeType:String,
+    DateOfJoining:String,
+    CurrentStatus:Boolean,
+    Errors:[String],
+    RetirementDate:String,
+    isTimeToRetire:Boolean
+}
+
+type Query{
+    about:String!,
+    getEmpByID(_id:String): Employee
+    getEmpList:[Employee!]
+    getRetirementList:[RetirementEmployee!]
+}
+type Mutation{
+    setAboutMessage(message:String):String
+    addEmployee(FirstName:String,LastName:String,Age:Int,Title:String,Department:String,EmployeeType:String,DateOfJoining:String):Employee
+    updateEmployee(_id:String,Title:String,Department:String,CurrentStatus: Boolean,EmployeeType:String):Employee
+    deleteEmployee(_id:String): Employee
+}

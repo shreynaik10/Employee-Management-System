@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    color: #2d3d5c;
+}
+
+h3{
+    color: #2d3d5c;
+}
+table th,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5270ab;
+  color: white;
+}
+
+
+
+#employeeTable{
+    width: 90%;
+    margin: 50px auto;
+}
+
+#employeeCreate{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.empCreateinput{
+    margin: 5px;
+}
+
+#employeeSearch{
+    width: 90%;
+    margin: auto;
+}
+
+#errorList{
+    color: red;
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
